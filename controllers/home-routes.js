@@ -52,7 +52,7 @@ router.get("/login", (req, res) => {
     res.redirect("/");
     return;
   }
-  res.redirect("/");
+  res.render("login");
 });
 
 router.get("/post/:id", (req, res) => {
