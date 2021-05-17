@@ -1,4 +1,4 @@
-const { timeStamp } = require("node:console");
+
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
